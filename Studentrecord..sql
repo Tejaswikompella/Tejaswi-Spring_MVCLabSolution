@@ -10,6 +10,26 @@ PRIMARY KEY (id));
 insert into studentrecord_database.student
 (firstname,lastname,country)
 values
-('robin','sharma','india');
+('vamsi','krishna','india');
+
+insert into studentrecord_database.student
+(firstname,lastname,country)
+values
+('harshit','goud','canada');
+
+insert into studentrecord_database.student
+(firstname,lastname,country)
+values
+('tanya','sharma','india');
+
+insert into studentrecord_database.student
+(firstname,lastname,country)
+values
+('robin','sharma','new zealand');
+
+insert into studentrecord_database.student
+(firstname,lastname,country)
+values
+('mounica','v','usa');
 
 select * from studentrecord_database.student;
